@@ -10,7 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  speech_to_text_platform_interface: ^1.5.3
+  speech_to_text_platform_interface:
+    git:
+      url: https://github.com/AlexHartford/speech_to_text.git
+      ref: main
+      path: speech_to_text_platform_interface
   json_annotation: ^4.0.0
   clock: ^1.0.1
   pedantic: ^1.9.2
